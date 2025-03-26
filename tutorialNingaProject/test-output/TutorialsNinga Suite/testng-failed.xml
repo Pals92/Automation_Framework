@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialsNinga Suite]">
+  <test thread-count="5" name="TestCases(failed)">
+    <classes>
+      <class name="tnp.tutorialNingaProject.LoginPage">
+        <methods>
+          <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="verifyLoginWithInValidCredentials"/>
+        </methods>
+      </class> <!-- tnp.tutorialNingaProject.LoginPage -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [TutorialsNinga Suite] -->
